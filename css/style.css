@@ -262,36 +262,13 @@ p {
     font-size: 18px;
   }
 }
-.checklist__circle::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-}
 .checklist__circle svg {
   position: absolute;
-  width: calc(100% + 1.5px);
-  height: calc(100% + 1.5px);
-  border-radius: inherit;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%) rotate(-83deg);
-      -ms-transform: translate(-50%, -50%) rotate(-83deg);
-          transform: translate(-50%, -50%) rotate(-83deg);
-  fill: none;
-  stroke-dasharray: 184;
-  stroke-dashoffset: 184;
-}
-.checklist__circle svg circle {
-  stroke-width: 4px;
-  stroke: #fff;
+  -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+      -ms-transform: translate(-50%, -50%) rotate(-90deg);
+          transform: translate(-50%, -50%) rotate(-90deg);
 }
 .checklist__desc {
   -webkit-box-flex: 1;
