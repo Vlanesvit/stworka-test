@@ -1,0 +1,44 @@
+// Text ========================================================================================================================================================
+h6 {
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 133%;
+}
+
+p {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+}
+
+// Button ========================================================================================================================================================
+.btn {
+	position: relative;
+	overflow: hidden;
+	-webkit-appearance: button;
+	display: inline-block;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	padding: 9px 25px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 143%;
+	border-radius: 6px;
+	border: 1px solid transparent;
+	white-space: nowrap;
+
+	&._btn-blue {
+		background-color: #f4f8ff;
+		border-color: #f4f8ff;
+		color: #4777ed;
+
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: var(--primary-color);
+				color: #fff;
+			}
+		}
+	}
+}
+
+// Block  ========================================================================================================================================================
